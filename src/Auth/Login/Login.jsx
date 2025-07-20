@@ -9,6 +9,7 @@ import video from "../../images/home_video.gif";
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
+  // Login-Details
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
